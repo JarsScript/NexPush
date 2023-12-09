@@ -2,7 +2,7 @@
 
 ![NexPush.js](https://i.ibb.co/ZTtLKp5/project-20231209-0213207-01.png)
 
-Introducing NexPush.js 😅
+Introducing NexPush.js 
 
 This script, made by JarsScript, with assistance from Stef ( discord: @stef_dp ), allows you to conveniently upload your project directly from the editor to the server using the SFTP connection. You can easily check and input your username and port data for the server. If your project is hosted on GitHub, NexPush.js offers you the choice to push it there as well! It's a 2x1 deal. A lot of encouragement and love was poured into this mini project, all for Nexcord! 
 
