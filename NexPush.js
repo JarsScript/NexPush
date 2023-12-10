@@ -86,7 +86,7 @@ async function start() {
     "package-lock.json",
   ];
 
-  
+
   const src = path.join(directory);
   const dst = "/";
 
@@ -105,7 +105,7 @@ async function start() {
         if (!ignoreList.includes(item.name)) {
           if (item.isFile()) {
             console.log(colors.grey(`Uploading file: ${relativePath}`));
-            promises.push(sftp.put(fullPath, path.join(dst, relativePath)));
+            promises.push(sftp.put(fullPath, path.join(dst, relativePath).replace(/\\/g, "/")));
           } else if (item.isDirectory()) {
             promises.push(processFiles(fullPath));
           }
@@ -185,4 +185,3 @@ start()
   .catch((err) => {
     console.log(colors.red(`main error: ${err.message}`));
   });
-  
