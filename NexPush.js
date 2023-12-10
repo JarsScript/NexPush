@@ -2,7 +2,7 @@
 // NexPush - Push Project to your Nexcord-Server and Github!
 // Credits: JarsScript | Stef
 // Discord: @jarsscript | @stef
-// nexpush-version: 2.1.0
+// nexpush-version: 2.1.1
 // Hosting: https://nexcord.com/
 // Discord-Server: https://discord.com/invite/nexcord-com-1068229111924936854
 //
